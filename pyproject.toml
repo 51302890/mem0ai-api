@@ -11,6 +11,7 @@ fastapi = "^0.112.1"
 poetry-plugin-dotenv = "^2.2.3"
 mem0ai = "^0.0.20"
 typenv = "^0.2.0"
+uvicorn = "^0.22.0"  # 添加这行
 
 [tool.poetry.plugins.dotenv]
 ignore = "false"
