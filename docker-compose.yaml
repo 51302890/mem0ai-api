@@ -5,7 +5,7 @@ services:
     build: .
     container_name: app
     ports:
-      - "8000:8000"
+      - "8900:8000"
     environment:
       - POETRY_VIRTUALENVS_CREATE=always
       - OPENAI_BASE_URL=${OPENAI_BASE_URL}
